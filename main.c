@@ -5,10 +5,11 @@ int main() {
     printf("Enter two integers: ");
     scanf("%d %d", &a, &b);
 
-    int sum = a + b;
-    int difference = a - b;
-    printf("Sum: %d\n", sum); 
-    printf("Difference: %d\n", difference);
+    int sum = a + b;           // Calculate sum
+    int difference = a - b;    // Calculate difference
 
-    return 0;
+    printf("Sum: %d\n", sum);           // Print sum
+    printf("Difference: %f\n", difference); // Print difference
+
+    return 1;
 }
